@@ -52,7 +52,7 @@ jobs:
           --apk "Temp\youtube.apk" `
           --bundle "Temp\revanced-patches.jar" `
           --merge "Temp\revanced-integrations.apk" `
-          --include comments --include premium-heading --include hide-captions-button --include disable-fullscreen-panels --include copy-video-url  --include custom-video-buffer  --include disable-auto-captions --include disable-player-popup-panels --include downloads --include general-ads --include hdr-auto-brightness --include hide-crowdfunding-box --include hide-floating-microphone-button --include hide-watch-in-vr --include minimized-playback --include hide-watermark --include open-links-externally --include return-youtube-dislike --include sponsorblock --include swipe-controls --include vanced-microg-support --include video-ads `
+          --exclude comments --exclude premium-heading --exclude hide-captions-button --exclude disable-fullscreen-panels --include copy-video-url  --include custom-video-buffer  --include disable-auto-captions --include disable-player-popup-panels --include downloads --include general-ads --include hdr-auto-brightness --include hide-crowdfunding-box --include hide-floating-microphone-button --include hide-watch-in-vr --include minimized-playback --include hide-watermark --include open-links-externally --include return-youtube-dislike --include sponsorblock --include swipe-controls --include vanced-microg-support --include video-ads `
           --clean `
           --temp-dir "Temp\Temp" `
           --out "Temp\revanced.apk"
